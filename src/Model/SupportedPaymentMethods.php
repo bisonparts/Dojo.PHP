@@ -78,7 +78,7 @@ class SupportedPaymentMethods implements ModelInterface, ArrayAccess, \JsonSeria
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'card_schemes' => true,
 		'wallets' => true
     ];
@@ -88,7 +88,7 @@ class SupportedPaymentMethods implements ModelInterface, ArrayAccess, \JsonSeria
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

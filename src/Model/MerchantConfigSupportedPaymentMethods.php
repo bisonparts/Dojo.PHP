@@ -79,7 +79,7 @@ class MerchantConfigSupportedPaymentMethods implements ModelInterface, ArrayAcce
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'card_schemes' => true,
 		'wallets' => true
     ];
@@ -89,7 +89,7 @@ class MerchantConfigSupportedPaymentMethods implements ModelInterface, ArrayAcce
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

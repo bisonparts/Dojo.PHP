@@ -114,7 +114,7 @@ class SetupIntentResponse implements ModelInterface, ArrayAccess, \JsonSerializa
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'id' => true,
 		'client_session_secret' => true,
 		'client_session_secret_expiration_date' => false,
@@ -142,7 +142,7 @@ class SetupIntentResponse implements ModelInterface, ArrayAccess, \JsonSerializa
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

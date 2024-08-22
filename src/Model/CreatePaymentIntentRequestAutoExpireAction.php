@@ -77,7 +77,7 @@ class CreatePaymentIntentRequestAutoExpireAction implements ModelInterface, Arra
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         
     ];
 
@@ -86,7 +86,7 @@ class CreatePaymentIntentRequestAutoExpireAction implements ModelInterface, Arra
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

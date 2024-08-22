@@ -79,7 +79,7 @@ class PaymentIntentConfigRequestPayment implements ModelInterface, ArrayAccess, 
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'custom_amount_allowed' => false,
 		'tips_allowed' => false
     ];
@@ -89,7 +89,7 @@ class PaymentIntentConfigRequestPayment implements ModelInterface, ArrayAccess, 
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

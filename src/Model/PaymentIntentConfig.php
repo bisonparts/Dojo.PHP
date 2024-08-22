@@ -91,7 +91,7 @@ class PaymentIntentConfig implements ModelInterface, ArrayAccess, \JsonSerializa
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'title' => true,
 		'redirect_url' => true,
 		'cancel_url' => true,
@@ -107,7 +107,7 @@ class PaymentIntentConfig implements ModelInterface, ArrayAccess, \JsonSerializa
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

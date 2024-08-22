@@ -81,7 +81,7 @@ class CustomerPaymentMethodCardDetails implements ModelInterface, ArrayAccess, \
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'pan' => true,
 		'expiry_date' => true,
 		'scheme' => false
@@ -92,7 +92,7 @@ class CustomerPaymentMethodCardDetails implements ModelInterface, ArrayAccess, \
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
