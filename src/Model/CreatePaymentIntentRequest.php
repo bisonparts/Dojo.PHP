@@ -115,7 +115,7 @@ class CreatePaymentIntentRequest implements ModelInterface, ArrayAccess, \JsonSe
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'capture_mode' => false,
 		'amount' => false,
 		'tips_amount' => true,
@@ -143,7 +143,7 @@ class CreatePaymentIntentRequest implements ModelInterface, ArrayAccess, \JsonSe
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

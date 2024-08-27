@@ -77,7 +77,7 @@ class CreateCaptureRequest implements ModelInterface, ArrayAccess, \JsonSerializ
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'amount' => false
     ];
 
@@ -86,7 +86,7 @@ class CreateCaptureRequest implements ModelInterface, ArrayAccess, \JsonSerializ
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

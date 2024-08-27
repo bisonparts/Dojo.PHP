@@ -82,7 +82,7 @@ class CustomerPaymentMethods implements ModelInterface, ArrayAccess, \JsonSerial
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'customer_id' => true,
 		'merchant_id' => true,
 		'saved_payment_methods' => true,
@@ -94,7 +94,7 @@ class CustomerPaymentMethods implements ModelInterface, ArrayAccess, \JsonSerial
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

@@ -91,7 +91,7 @@ class PaymentStatusResponse implements ModelInterface, ArrayAccess, \JsonSeriali
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'transaction_id' => true,
 		'transaction_date_time' => true,
 		'event_type' => false,
@@ -107,7 +107,7 @@ class PaymentStatusResponse implements ModelInterface, ArrayAccess, \JsonSeriali
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

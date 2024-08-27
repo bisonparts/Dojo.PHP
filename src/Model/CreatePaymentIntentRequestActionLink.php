@@ -83,7 +83,7 @@ class CreatePaymentIntentRequestActionLink implements ModelInterface, ArrayAcces
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'url' => false,
 		'action' => false,
 		'label' => false,
@@ -95,7 +95,7 @@ class CreatePaymentIntentRequestActionLink implements ModelInterface, ArrayAcces
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization

@@ -89,7 +89,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess, \JsonSerializable
       *
       * @var boolean[]
       */
-    protected static array $openAPINullables = [
+    protected static $openAPINullables = [
         'transaction_date_time' => true,
 		'message' => true,
 		'auth_code' => true,
@@ -104,7 +104,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess, \JsonSerializable
       *
       * @var boolean[]
       */
-    protected array $openAPINullablesSetToNull = [];
+    protected $openAPINullablesSetToNull = [];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
